@@ -1,0 +1,102 @@
+.background {
+  top: 0;
+  left: 0;
+  width: 99vw;
+  height: auto;
+  background-image: url("https://wallpapers.com/images/featured/movie-9pvmdtvz4cb0xl37.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  border-bottom: 0.2px solid rgb(87, 87, 87);
+  background-color: #242424;
+}
+
+.headerContainer img {
+  height: 40px;
+}
+
+.headerContainer button {
+  background-color: #f7d03c;
+  padding: 0.5rem 2rem;
+}
+
+.headerTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 30px;
+}
+
+.headerTitle p {
+  margin: 0;
+}
+
+.profileContainer {
+  max-width: 600px;
+  margin: 5rem auto 6rem auto;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgba(36, 36, 36, 0.9);
+  z-index: 10;
+}
+
+.profileContainer img {
+  height: 150px;
+  margin-top: 2rem;
+  border-radius: 50%;
+  border: 3px solid #f7d03c;
+}
+
+.profileUsername {
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.profileEdit {
+  background-color: #f7d03c;
+  margin: 1rem auto;
+  padding: 0.5rem 2rem;
+}
+
+.sectionTitle {
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.profileCommentsContainer {
+  width: 80%;
+  margin: 0 auto 1rem auto;
+  padding: 1rem;
+  text-align: left;
+  background-color: white;
+  color: gray;
+  border-radius: 20px;
+}
+
+.profileCommentsHeader {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 0.2px solid rgb(87, 87, 87);
+}
+
+.profileCommentsRating {
+  display: flex;
+  align-items: center;
+}
+
+.faStar {
+  color: gold;
+  font-size: 20px;
+}

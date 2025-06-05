@@ -1,0 +1,266 @@
+.test {
+  background-image: url("https://wallpapers.com/images/featured/movie-9pvmdtvz4cb0xl37.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 0.2px solid rgb(87, 87, 87);
+  padding: 1.2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #0f0f0f;
+}
+
+.headerContainer img {
+  height: 40px;
+}
+
+.headerLinks {
+  display: flex;
+  gap: 2rem;
+}
+
+.headerLinks a {
+  color: white;
+  font-size: 15px;
+}
+
+.headerSearchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.headerSearchBar input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  background-color: rgb(61, 61, 61);
+}
+
+.headerSearchBar label {
+  font-size: 22px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.headerButtonsContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.headerButtonsContainer button {
+  background-color: #f7d03c;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.videoWithIcon {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: #0f0f0f;
+  padding: 1rem;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.videoWithIcon iframe {
+  height: 420px;
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 20px;
+  border: 3px solid #f7d03c;
+}
+
+.videoWithIcon img {
+  height: 40px;
+  width: auto;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.profileContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profileContainer button {
+  background-color: #f7d03c;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.profilePicture {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.profilePicture img {
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #f7d03c;
+}
+
+.profilePicture p {
+  font-size: 20px;
+}
+
+.filmContainer {
+  width: 70%;
+  margin: auto;
+  background-color: #0f0f0f;
+  padding: 1rem;
+  border-top: 0.2px solid rgb(87, 87, 87);
+  display: flex;
+}
+
+.filmContainer img {
+  height: 250px;
+  padding: 0.5rem;
+}
+
+.filmDetails {
+  padding-left: 1rem;
+}
+
+.filmDetails span {
+  font-size: 20px;
+}
+
+.filmTitle {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.filmDescription {
+  font-size: 20px;
+}
+
+.commentsContainer {
+  width: 70%;
+  padding: 1rem;
+  background-color: #0f0f0f;
+  border-top: 0.2px solid rgb(87, 87, 87);
+  margin: auto;
+  margin-bottom: 3rem;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.commentSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-bottom: 0.2px solid rgb(87, 87, 87);
+  gap: 5rem;
+}
+
+.commentFont {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 40%;
+}
+
+.commentFont p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.addComment {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 60%;
+}
+
+.addComment button {
+  background-color: #f7d03c;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.addComment input {
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  background-color: rgb(61, 61, 61);
+  width: 60%;
+}
+
+.commentListContainer {
+  color: gray;
+  background-color: white;
+  width: 95%;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.commentList {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: space-between;
+  border-bottom: 0.2px solid rgb(87, 87, 87);
+}
+
+.commentList button {
+  background-color: #f7d03c;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.commentList p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.commentListHeader {
+  display: flex;
+  gap: 1rem;
+}
+
+.commentFooter {
+  padding-left: 1rem;
+}
+
+.commentRating {
+  display: flex;
+  align-items: center;
+}
+
+.faStar {
+  color: gold;
+  font-size: 20px;
+}

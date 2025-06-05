@@ -1,0 +1,101 @@
+.test {
+  background-image: url("https://wallpapers.com/images/featured/movie-9pvmdtvz4cb0xl37.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.headerContainer {
+  padding: 1.2rem;
+  display: flex;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.2px solid rgb(87, 87, 87);
+  background-color: #0f0f0f;
+}
+
+.headerContainer img {
+  height: 40px;
+}
+
+.headerContainer button {
+  background-color: #f7d03c;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.registerContainer {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  margin-top: 3rem;
+  border-radius: 20px;
+  background-color: #242424;
+  background-color: rgba(36, 36, 36, 0.9);
+  padding: 0.5rem;
+}
+
+.registerContainer p {
+  text-align: left;
+  padding-left: 2rem;
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: auto;
+}
+
+.registerForm label {
+  font-size: 20px;
+  margin-bottom: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+.registerForm input {
+  padding: 0.8rem;
+  border-radius: 10px;
+  background-color: #242424;
+  border: 1px solid #606060;
+}
+
+.registerSubmitContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.registerSubmitContainer button {
+  width: 30%;
+  margin: auto;
+  background-color: #f7d03c;
+}
+
+.registerSubmitContainer p {
+  padding: 0;
+  font-size: 20px;
+}
+
+.registered {
+  display: flex;
+  justify-content: center;
+}
+
+.registered p {
+  color: green;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  color: rgb(211, 68, 68);
+}

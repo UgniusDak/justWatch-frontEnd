@@ -1,0 +1,165 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 0.2px solid rgb(87, 87, 87);
+  padding: 1.2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #0f0f0f;
+}
+
+.headerContainer img {
+  height: 40px;
+}
+
+.headerSearchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.headerSearchBar input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  background-color: rgb(61, 61, 61);
+}
+
+.headerSearchBar label {
+  font-size: 22px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.headerButtonsContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.headerButtonsContainer button {
+  background-color: #f7d03c;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.profileContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profileContainer button {
+  background-color: #f7d03c;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.profilePicture {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.profilePicture img {
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #f7d03c;
+}
+
+.profilePicture p {
+  font-size: 20px;
+}
+
+.filmsContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  flex-wrap: wrap;
+  width: 80%;
+  gap: 2rem;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.filmsCards {
+  border: 0.2px solid rgb(87, 87, 87);
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #0f0f0f;
+}
+
+.filmsCards p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.filmsCards img {
+  width: 150px;
+}
+
+.imagineDarken {
+  transition: 0.3 ease;
+}
+
+.imagineDarken:hover {
+  filter: brightness(50%);
+}
+
+footer {
+  border-top: 0.2px solid rgb(87, 87, 87);
+  padding: 1rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0f0f0f;
+}
+
+footer button {
+  font-size: 15px;
+}
+
+.loaderContainer {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #f7d03c;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+.loaderText {
+  font-size: 1.2rem;
+  color: #fffefe;
+  font-weight: 500;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
